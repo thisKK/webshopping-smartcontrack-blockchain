@@ -1,0 +1,23 @@
+{
+  "name": "BlockchainStore-smartcontrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisKK/BlockchainStore-smartcontrack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisKK/BlockchainStore-smartcontrack/issues"
+  },
+  "homepage": "https://github.com/thisKK/BlockchainStore-smartcontrack#readme",
+  "dependencies": {
+    "web3": "^0.20.7"
+  }
+}
