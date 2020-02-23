@@ -1,5 +1,5 @@
 {
-  "name": "BlockchainStore-smartcontrack",
+  "name": "Smartcontrack-CardStore",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/thisKK/BlockchainStore-smartcontrack#readme",
   "dependencies": {
-    "web3": "^0.20.7"
+    "serve": "^11.3.0",
+    "web3": "^0.20.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "solidity-to-abi": "^1.0.4"
   }
 }
