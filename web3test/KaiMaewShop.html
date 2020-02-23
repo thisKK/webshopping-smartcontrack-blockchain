@@ -22,7 +22,7 @@
             <thead>
               <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Character</th>
+                <th scope="col">Card Name</th>
                 <th scope="col">Buyer Address</th>
                 <th scope="col">Status</th>
               </tr>
@@ -32,7 +32,7 @@
           </table>
         <h2 id="result"></h2>
         <h2 class=" badge badge-success">My Wallet Address</h2>
-        <p id="my-account" class="badge badge-warning"></p>
+        <p id="my-account" class="badge badge-info"></p>
     </div>
     
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
@@ -296,7 +296,7 @@
             if(!error){
                 $('.alertMsg').removeClass("alert-warning");
                 $('.alertMsg').addClass("alert-danger");
-                $('.alertMsg').text("This character not available!!!");
+                $('.alertMsg').text("This card not available!!!");
                 $(".alertMsg").show().delay(5000).queue(function (n) {
                 $(this).hide(); n();});   
             }else{
@@ -319,7 +319,7 @@
                         $('.alertMsg').removeClass("alert-danger");
                         $('.alertMsg').removeClass("alert-success");
                         $('.alertMsg').addClass("alert-warning");
-                        $('.alertMsg').html(`<div class="spinner-border text-danger spinner-border-sm" role="status"></div>` + " Buy character pending");
+                        $('.alertMsg').html(`<div class="spinner-border text-danger spinner-border-sm" role="status"></div>` + " Buy card pending");
                     }else{
                         console.log(error.message);
                     }
